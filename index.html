@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+
+    </body>
+    <script>
+        document.write("<hr/><p>Hello World.</p><hr/>");
+
+        var value = 30; 
+        document.write("Line.<br/>");
+        document.write("In this line you'll see the result of: " + (10 * 10 + value));
+
+        var name;
+        name = prompt('What´s your name?');
+        alert('Welcome ' + name + '!');
+
+        var one, two, three;
+        one = parseInt(prompt('Write a number.'));
+        two = parseInt(prompt('Write a second number.'));
+        three = parseInt(prompt('Write a third number.')); 
+
+        alert('Numbers sum is equals: '+ (one + two + three));
+
+        var number1, number2;
+        number1 = parseInt(prompt('Write a number.'));
+        number2 = parseInt(prompt('Write a number, again...'));
+
+        if(number1 < 100){
+            alert(number1 + ' is lower than 100');
+        }
+        else{
+            alert(number1 + ' is bigger than 100');
+        }
+
+        if(number2 < 100){
+            alert(number2 + ' is lower than 100');
+
+        }
+        else{
+            alert(number2 + ' is bigger than 100');
+        }
+
+    </script>
+</html>
